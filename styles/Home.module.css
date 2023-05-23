@@ -1,10 +1,10 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 }
 
 .footer {
-  display: flex;
+  display: flex ;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
@@ -22,7 +22,7 @@
 }
 
 .footer a {
-  display: flex;
+  display: flex inline-block;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
@@ -40,9 +40,9 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  margin: 2rem;
+  line-height: 1;
+  font-size: 2rem;
 }
 
 .title,
@@ -51,18 +51,10 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  margin: 2rem 0;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid {
@@ -74,7 +66,7 @@
 }
 
 .card {
-  margin: 1rem;
+  margin: 3rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -83,6 +75,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  visibility: hidden;
 }
 
 .card:hover,
@@ -108,9 +101,52 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+
+.formblock {
+  margin: 0em;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  
+}
+
+.label {
+  padding: 1em;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.select {
+  padding: 0.3em;
+  margin: 0.5em;
+  border-color: rgb(90, 132, 205);
+  border-radius: 1em;
+  border-width: 0.2em;
+  background-color: #fff;
+}
+
+.btn {
+  margin: 1em;
+  padding: 0.5em;
+  padding-inline: 3em;
+  border-radius: 0.8em;
+  border-width: 0.05em;
+  background-color: #b93d3d;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.btn:hover {
+cursor: pointer;
 }
