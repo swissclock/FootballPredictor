@@ -1,0 +1,95 @@
+// import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+const TeamLogos = () => (
+    <>
+        {/* <Link href={"/teams/[id]"}> */}
+        <Image 
+        src="/assets/logos/hbs.png" 
+        height={35} 
+        width={35}
+        alt="hbs"
+        />
+        {/* </Link>      */}
+        <Image 
+        src="/assets/logos/bj.png" 
+        height={35} 
+        width={35}
+        alt="bj"
+        />    
+        <Image 
+        src="/assets/logos/bns.png" 
+        height={35} 
+        width={35}
+        alt="bns"
+        />      
+        <Image 
+        src="/assets/logos/hh.png" 
+        height={35} 
+        width={35}
+        alt="hh"
+        />
+        <Image 
+        src="/assets/logos/hhd.png" 
+        height={35} 
+        width={35}
+        alt="hhd"
+        />      
+        <Image 
+        src="/assets/logos/hj.png" 
+        height={35} 
+        width={35}
+        alt="hj"
+        />    
+        <Image 
+        src="/assets/logos/hks.png" 
+        height={35} 
+        width={35}
+        alt="hks"
+        />    
+        <Image 
+        src="/assets/logos/hna.png" 
+        height={35} 
+        width={35}
+        alt="hna"
+        />      
+        <Image 
+        src="/assets/logos/hta.png" 
+        height={35} 
+        width={35}
+        alt="hta"
+        />    
+        <Image 
+        src="/assets/logos/mch.png" 
+        height={35} 
+        width={35}
+        alt="mch"
+        />    
+        <Image 
+        src="/assets/logos/mn.png" 
+        height={35} 
+        width={35}
+        alt="mn"
+        />     
+        <Image 
+        src="/assets/logos/mpt.png" 
+        height={35} 
+        width={35}
+        alt="mpt"
+        />      
+        <Image 
+        src="/assets/logos/msa.png" 
+        height={35} 
+        width={35}
+        alt="msa"
+        />     
+        <Image 
+        src="/assets/logos/mta.png" 
+        height={35} 
+        width={35}
+        alt="mta"
+        />      
+    </>
+)
+
+export default TeamLogos
