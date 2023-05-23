@@ -1,5 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 secrets.json
+README.md
+
 # dependencies
 /node_modules
 /.pnp
@@ -7,7 +8,6 @@ secrets.json
 
 # testing
 /coverage
-README.md
 # next.js
 /.next/
 /out/
